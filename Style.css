@@ -1,0 +1,192 @@
+@media screen and (max-width: 375px) {
+
+    body {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        Height: 800px;
+        background-image: url(./images/bg-mobile.svg);
+        background-color: #684BB1;
+        background-repeat: no-repeat;
+
+    }
+
+    header {
+        padding: 25px;
+    }
+
+    .logo {
+        width: 142px;
+        height: 37px;
+        margin: 4px 0px 48px 14px;
+    }
+
+    .mainimg {
+        max-width: 97%;
+    }
+
+    .main {
+        padding: 25px;
+    }
+
+    .title {
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 36px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    .text {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        color: #FFFFFF;
+        padding: 0px 15px;
+    }
+
+    footer {
+        padding: 0px 84px;
+    }
+
+    .register {
+        width: 200px;
+        height: 40px;
+        border-radius: 50px;
+        background: #FFFFFF;
+        box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.269022);
+        border: none;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 18px;
+        text-align: center;
+        color: #684BB1;
+    }
+
+    .icons {
+        margin: 49px 42px 49px 24px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+}
+
+@media screen and (min-width: 376px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        background-size: 100%;
+        width: 1400px;
+        Height: 800px;
+        background-image: url(./images/bg-desktop.svg);
+        background-color: #684BB1;
+        background-repeat: no-repeat;
+
+    }
+
+    header {
+        padding: 25px;
+    }
+
+    .logo {
+        width: 142px;
+        height: 37px;
+        margin: 0px -156px 593px 67px;
+    }
+
+
+    .mainimg {
+        max-width: 100%;
+    }
+
+    .main {
+        padding: 0px 434px;
+        top: -55%;
+        left: 33%;
+        position: relative;
+    }
+
+    .title {
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 64px;
+        color: #FFFFFF;
+    }
+
+    .text {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 24px;
+        color: #FFFFFF;
+        padding: 0px 15px;
+    }
+
+    footer {
+
+        margin: -413px 0px 0px 907px;
+
+    }
+
+    .register:hover {
+        color: #FFFFFF;
+        cursor: pointer;
+        background: #E880E8;
+        box-shadow: 2px 4px 9px 3px rgba(0, 0, 0, 0.258633);
+        border-radius: 28px;
+    }
+
+    .register {
+        width: 211px;
+        height: 60px;
+        border-radius: 50px;
+        background: #FFFFFF;
+        box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.269022);
+        border: none;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 18px;
+        text-align: center;
+        color: #684BB1;
+        background: #FFFFFF;
+        box-shadow: 2px 4px 9px 3px rgba(0, 0, 0, 0.258633);
+        border-radius: 28px;
+    }
+
+
+    .icons {
+        margin: 260px 0px 0px 349px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .face:hover {
+        cursor: pointer;
+        filter: invert(41%) sepia(67%) saturate(1394%) hue-rotate(298deg) brightness(110%) contrast(101%);
+    }
+
+    .twitter:hover {
+        cursor: pointer;
+        filter: invert(41%) sepia(67%) saturate(1394%) hue-rotate(298deg) brightness(110%) contrast(101%);
+    }
+
+    .insta:hover {
+        cursor: pointer;
+        filter: invert(41%) sepia(67%) saturate(1394%) hue-rotate(298deg) brightness(110%) contrast(101%);
+    }
+}
